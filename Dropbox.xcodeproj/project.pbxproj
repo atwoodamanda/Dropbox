@@ -17,6 +17,8 @@
 		7B159C7519E9AB5D0056C5A8 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B159C7419E9AB5D0056C5A8 /* CreateAccountRootViewController.swift */; };
 		7B159C7719E9ABB30056C5A8 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B159C7619E9ABB30056C5A8 /* SignInRootViewController.swift */; };
 		7B159C7919E9B0CE0056C5A8 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B159C7819E9B0CE0056C5A8 /* SignInViewController.swift */; };
+		7B159C7B19E9B8500056C5A8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B159C7A19E9B8500056C5A8 /* SettingsViewController.swift */; };
+		7B159C7D19E9BAA40056C5A8 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B159C7C19E9BAA40056C5A8 /* TermsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		7B159C7419E9AB5D0056C5A8 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		7B159C7619E9ABB30056C5A8 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		7B159C7819E9B0CE0056C5A8 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7B159C7A19E9B8500056C5A8 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7B159C7C19E9BAA40056C5A8 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				7B159C1E19E581050056C5A8 /* ViewController.swift */,
 				7B159C3C19E58DF70056C5A8 /* CreateAccountViewController.swift */,
 				7B159C2019E581050056C5A8 /* Main.storyboard */,
+				7B159C7C19E9BAA40056C5A8 /* TermsViewController.swift */,
+				7B159C7A19E9B8500056C5A8 /* SettingsViewController.swift */,
 				7B159C7819E9B0CE0056C5A8 /* SignInViewController.swift */,
 				7B159C7619E9ABB30056C5A8 /* SignInRootViewController.swift */,
 				7B159C7419E9AB5D0056C5A8 /* CreateAccountRootViewController.swift */,
@@ -227,9 +233,11 @@
 			files = (
 				7B159C7719E9ABB30056C5A8 /* SignInRootViewController.swift in Sources */,
 				7B159C7519E9AB5D0056C5A8 /* CreateAccountRootViewController.swift in Sources */,
+				7B159C7B19E9B8500056C5A8 /* SettingsViewController.swift in Sources */,
 				7B159C7919E9B0CE0056C5A8 /* SignInViewController.swift in Sources */,
 				7B159C3D19E58DF70056C5A8 /* CreateAccountViewController.swift in Sources */,
 				7B159C1F19E581050056C5A8 /* ViewController.swift in Sources */,
+				7B159C7D19E9BAA40056C5A8 /* TermsViewController.swift in Sources */,
 				7B159C1D19E581050056C5A8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
