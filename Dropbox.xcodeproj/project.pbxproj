@@ -13,6 +13,9 @@
 		7B159C2419E581050056C5A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B159C2319E581050056C5A8 /* Images.xcassets */; };
 		7B159C2719E581050056C5A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B159C2519E581050056C5A8 /* LaunchScreen.xib */; };
 		7B159C3319E581050056C5A8 /* DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B159C3219E581050056C5A8 /* DropboxTests.swift */; };
+		7B159C3D19E58DF70056C5A8 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B159C3C19E58DF70056C5A8 /* CreateAccountViewController.swift */; };
+		7B159C7519E9AB5D0056C5A8 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B159C7419E9AB5D0056C5A8 /* CreateAccountRootViewController.swift */; };
+		7B159C7719E9ABB30056C5A8 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B159C7619E9ABB30056C5A8 /* SignInRootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		7B159C2C19E581050056C5A8 /* DropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B159C3119E581050056C5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B159C3219E581050056C5A8 /* DropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxTests.swift; sourceTree = "<group>"; };
+		7B159C3C19E58DF70056C5A8 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		7B159C7419E9AB5D0056C5A8 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		7B159C7619E9ABB30056C5A8 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +85,10 @@
 			children = (
 				7B159C1C19E581050056C5A8 /* AppDelegate.swift */,
 				7B159C1E19E581050056C5A8 /* ViewController.swift */,
+				7B159C3C19E58DF70056C5A8 /* CreateAccountViewController.swift */,
 				7B159C2019E581050056C5A8 /* Main.storyboard */,
+				7B159C7619E9ABB30056C5A8 /* SignInRootViewController.swift */,
+				7B159C7419E9AB5D0056C5A8 /* CreateAccountRootViewController.swift */,
 				7B159C2319E581050056C5A8 /* Images.xcassets */,
 				7B159C2519E581050056C5A8 /* LaunchScreen.xib */,
 				7B159C1A19E581050056C5A8 /* Supporting Files */,
@@ -161,6 +170,7 @@
 				TargetAttributes = {
 					7B159C1619E581050056C5A8 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = UWX4368CMH;
 					};
 					7B159C2B19E581050056C5A8 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -212,6 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B159C7719E9ABB30056C5A8 /* SignInRootViewController.swift in Sources */,
+				7B159C7519E9AB5D0056C5A8 /* CreateAccountRootViewController.swift in Sources */,
+				7B159C3D19E58DF70056C5A8 /* CreateAccountViewController.swift in Sources */,
 				7B159C1F19E581050056C5A8 /* ViewController.swift in Sources */,
 				7B159C1D19E581050056C5A8 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +418,7 @@
 				7B159C3819E581050056C5A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B159C3919E581050056C5A8 /* Build configuration list for PBXNativeTarget "DropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +427,7 @@
 				7B159C3B19E581050056C5A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
