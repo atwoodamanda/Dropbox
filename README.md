@@ -18,3 +18,5 @@ User can follow the sign in flow
 
 GIF:
 
+![stuff](https://cloud.githubusercontent.com/assets/8905121/4621938/689e8a48-5333-11e4-95f5-8873ad3265a1.gif)
+
